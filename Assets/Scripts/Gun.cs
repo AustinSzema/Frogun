@@ -12,6 +12,7 @@ using UnityEngine;
  * 
  */
 
+// M-0,0
 
 public class Gun : MonoBehaviour
 {
@@ -24,14 +25,15 @@ public class Gun : MonoBehaviour
     [SerializeField] private Material lineRendererMaterial;
 
 
-
+    private bool _hitSomething = true;
 
 
 
     void Update()
     {
+
         // Check if the player has pressed the fire button and if enough time has elapsed since they last fired
-        if (Input.GetMouseButtonDown(0) && lineRendererMaterial.GetFloat("_Alpha") <= 0.1f)
+        if (Input.GetMouseButtonDown(0) && lineRendererMaterial.GetFloat("_Alpha") <= 0.1f || Input.GetMouseButtonDown(0) && _hitSomething)
         {
             lineRendererMaterial.SetFloat("_Alpha", 1f);
 
@@ -58,6 +60,16 @@ public class Gun : MonoBehaviour
                     hit.transform.gameObject.GetComponent<IDamageable>().takeDamage(1f);
                 }
                 Debug.Log(hit.transform.gameObject);
+
+                if (hit.transform.gameObject.CompareTag("Cow"))
+                {
+                    _hitSomething = true;
+                    Debug.Log("hit cow");
+                }
+                else
+                {
+                    _hitSomething = false;
+                }
 
 
             }

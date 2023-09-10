@@ -13,6 +13,8 @@ public class Crate : MonoBehaviour, IDamageable
 
     [SerializeField] private MeshRenderer meshRenderer;
     [SerializeField] private Collider collider;
+
+
 /*
  * 
  * 
@@ -37,6 +39,7 @@ public class Crate : MonoBehaviour, IDamageable
 
     void Explode()
     {
+        Debug.Log("Exploded");
         explosionParticles.Play();
 
         //transform.position = GameObject.FindGameObjectWithTag("Respawn").transform.position;

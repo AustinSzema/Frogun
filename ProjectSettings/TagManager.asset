@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - MovingPlatform
+  - Cow
   layers:
   - Default
   - TransparentFX
