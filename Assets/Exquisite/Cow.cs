@@ -20,9 +20,10 @@ public class Cow : MonoBehaviour, IDamageable
         }
     }
 
-    void Explode()
+    private void Explode()
     {
         _explosionParticles.Play();
         _cowVisual.SetActive(false);
+        
     }
 }

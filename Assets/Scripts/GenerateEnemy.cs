@@ -1,76 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GenerateEnemy : MonoBehaviour
 {
-    [SerializeField] private Transform playerTransform;
-
-    [Header("Enemy Stuff")]
-
-    [SerializeField] private GameObject enemyPrefab;
-
-    [SerializeField] private int numberOfEnemies = 100;
-
-    private float elapsedTime = 0f;
-
-    [Space]
-
-    [SerializeField] private boolVariable gameIsPaused;
-
-
-    [SerializeField] private intVariable enemyCount;
-
-
-    private void Awake()
-    {
-        enemyCount.Value = 0;
-    }
-
-
+    [SerializeField] private Transform _playerTransform;
+    
+    [SerializeField] private boolVariable _gameIsPaused;
+    
     private void Start()
     {
-        for (int i = 0; i < numberOfEnemies; i++)
-        {
-            CreateEnemy(10f, 20f);
-
-
-        }
-
+        InvokeRepeating("SpawnEnemy", 0f, 1f);
     }
+    
 
-    void Update()
+    private void SpawnEnemy()
     {
-        elapsedTime += Time.deltaTime;
 
-        if (elapsedTime >= 0.5f)
+        if (!_gameIsPaused.Value)
         {
-
-            if (gameIsPaused.Value == false)
+            GameObject enemy = ObjectPool.instance.GetPooledObject();
+            if (enemy != null)
             {
-                while (enemyCount.Value < numberOfEnemies + 50)
-                {
-                    CreateEnemy(25f, 30f);
+                float maxDistanceFromPlayer = 25f;
+                float minDistanceFromPlayer = 30f;
 
-                }
+                float xOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
+                float zOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
+
+
+                GameObject cow = enemy.GetComponentInChildren<Cow>(true).gameObject;
+                
+                cow.transform.position = _playerTransform.position + new Vector3(_playerTransform.position.x + xOffset, 20f,_playerTransform.position.z + zOffset);
+            
+                cow.gameObject.SetActive(true);
             }
-            elapsedTime = 0f;
+            
         }
+        
     }
-
-
-    void CreateEnemy(float min, float max)
-    {
-
-        float maxDistanceFromPlayer = min;
-        float minDistanceFromPlayer = max;
-
-        float xOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
-        float zOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
-
-        GameObject enemy = Instantiate(enemyPrefab, playerTransform.position + new Vector3(playerTransform.position.x + xOffset, 20f, playerTransform.position.z + zOffset), Quaternion.identity);
-
-        enemyCount.Value++;
-    }
-
 }
