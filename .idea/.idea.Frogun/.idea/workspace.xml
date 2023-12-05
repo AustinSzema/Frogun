@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Funny Cow Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Funny Cow Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cow/Funny Cow Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cow/Funny Cow Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Exquisite/Cow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Exquisite/Cow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Materials/LineRendererMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Materials/LineRendererMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/New Render Texture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/New Render Texture.renderTexture" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +97,7 @@
       <workItem from="1699690565808" duration="89000" />
       <workItem from="1699690677266" duration="225000" />
       <workItem from="1699691114007" duration="1773000" />
+      <workItem from="1701754741078" duration="1972000" />
     </task>
     <servers />
   </component>
