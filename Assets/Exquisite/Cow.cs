@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,5 +26,13 @@ public class Cow : MonoBehaviour, IDamageable
         _explosionParticles.Play();
         _cowVisual.SetActive(false);
         
+    }
+
+    private void Update()
+    {
+        if (transform.position.y < -5f)
+        {
+            takeDamage(1f);
+        }
     }
 }

@@ -19,7 +19,14 @@ public class Magnet : MonoBehaviour
     
     [SerializeField]
     private GameObject _cubePrefab;
-        
+
+
+
+    [SerializeField] private GameObject _attractImage;
+    [SerializeField] private GameObject _repelImage;
+    [SerializeField] private GameObject _defaultImage;
+
+    
     private void Start()
     {
         /*for (int i = 0; i < 100; i++)
@@ -58,6 +65,9 @@ public class Magnet : MonoBehaviour
         {
             _activateMagnet = true;
             transform.position = _handPosition.position;
+            _repelImage.SetActive(false);
+            _attractImage.SetActive(true);
+            _defaultImage.SetActive(false);
         }
         if(Input.GetMouseButtonUp(1))
         {
@@ -67,12 +77,19 @@ public class Magnet : MonoBehaviour
                 transform.position = _explodePosition.position;
                 rb.AddExplosionForce(20000f, transform.position, 100f, 0.0F);
             }*/
+            _repelImage.SetActive(false);
+            _attractImage.SetActive(false);
+            _defaultImage.SetActive(true);
+
         }
 
         if (Input.GetMouseButton(1) && Input.GetMouseButtonDown(0))
         {
             foreach (Rigidbody rb in _magneticObjects)
             {
+                _attractImage.SetActive(false);
+                _repelImage.SetActive(true);
+                _defaultImage.SetActive(false);
                 
                 rb.AddForce(transform.forward * 5000f);
                 

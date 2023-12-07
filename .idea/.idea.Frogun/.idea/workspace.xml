@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Exquisite/Cow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Exquisite/Cow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Magnet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Magnet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Magnetic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Magnetic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateEnemy.cs" afterDir="false" />
     </list>
@@ -102,7 +101,8 @@
       <workItem from="1699690677266" duration="225000" />
       <workItem from="1699691114007" duration="1773000" />
       <workItem from="1701754741078" duration="1972000" />
-      <workItem from="1701841814686" duration="3385000" />
+      <workItem from="1701841814686" duration="3456000" />
+      <workItem from="1701894753550" duration="3678000" />
     </task>
     <servers />
   </component>

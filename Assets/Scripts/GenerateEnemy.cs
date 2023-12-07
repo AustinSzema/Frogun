@@ -10,7 +10,7 @@ public class GenerateEnemy : MonoBehaviour
     
     private void Start()
     {
-        InvokeRepeating("SpawnEnemy", 0f, 1f);
+        InvokeRepeating("SpawnEnemy", 0f, 0.5f);
     }
     
 
@@ -28,11 +28,14 @@ public class GenerateEnemy : MonoBehaviour
                 float xOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
                 float zOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
 
-
+                Debug.Log("Cow X Offset" + xOffset + "          Cow Z Offset" + zOffset);
+                
                 GameObject cow = enemy.GetComponentInChildren<Cow>(true).gameObject;
                 
                 cow.transform.position = _playerTransform.position + new Vector3(_playerTransform.position.x + xOffset, 20f,_playerTransform.position.z + zOffset);
             
+                
+                
                 cow.gameObject.SetActive(true);
             }
             
