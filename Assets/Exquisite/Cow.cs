@@ -5,19 +5,28 @@ using UnityEngine;
 
 public class Cow : MonoBehaviour, IDamageable
 {
-    [SerializeField] private float _healthPoints = 1f;
+    public int healthPoints { get; set; }
 
     [SerializeField] private ParticleSystem _explosionParticles;
 
     [SerializeField] private GameObject _cowVisual;
 
-
-    public void takeDamage(float hitPoints)
+    [SerializeField] private intVariable _killCount;
+    
+    private void Awake()
     {
-        _healthPoints -= hitPoints;
-        if (_healthPoints <= 0f)
+        healthPoints = 1;
+    }
+
+
+    public void takeDamage(int hitPoints)
+    {
+        healthPoints -= hitPoints;
+        if (healthPoints <= 0)
         {
             Explode();
+            _killCount.Value++;
+            healthPoints = 1;
         }
     }
 
@@ -32,7 +41,7 @@ public class Cow : MonoBehaviour, IDamageable
     {
         if (transform.position.y < -5f)
         {
-            takeDamage(1f);
+            takeDamage(1);
         }
     }
 }

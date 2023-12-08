@@ -135,6 +135,7 @@ MonoBehaviour:
   _healthPoints: 1
   _explosionParticles: {fileID: 6460260744829967334}
   _cowVisual: {fileID: 2795715922027697219}
+  _killCount: {fileID: 11400000, guid: 73f58ac34ede0124a8c089afa3bdb9dd, type: 2}
 --- !u!114 &6594461547093632004
 MonoBehaviour:
   m_ObjectHideFlags: 0

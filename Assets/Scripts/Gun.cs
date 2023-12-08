@@ -57,7 +57,7 @@ public class Gun : MonoBehaviour
                 laserLine.SetPosition(1, hit.point);
                 if(hit.transform.gameObject.GetComponent<IDamageable>() != null)
                 {
-                    hit.transform.gameObject.GetComponent<IDamageable>().takeDamage(1f);
+                    hit.transform.gameObject.GetComponent<IDamageable>().takeDamage(1);
                 }
                 Debug.Log(hit.transform.gameObject);
 
@@ -98,7 +98,7 @@ public class Gun : MonoBehaviour
                 laserLine.SetPosition(1, hit.point);
                 if (hit.transform.gameObject.GetComponent<IDamageable>() != null)
                 {
-                    hit.transform.gameObject.GetComponent<IDamageable>().takeDamage(1f);
+                    hit.transform.gameObject.GetComponent<IDamageable>().takeDamage(1);
                 }
                 Debug.Log(hit.transform.gameObject);
 

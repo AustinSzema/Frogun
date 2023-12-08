@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Crate : MonoBehaviour, IDamageable
 {
-    [SerializeField] private float healthPoints = 1f;
-
-
-
-
+    public int healthPoints { get; set;}
+    
     [SerializeField] private ParticleSystem explosionParticles;
 
     [SerializeField] private MeshRenderer meshRenderer;
@@ -28,7 +25,7 @@ public class Crate : MonoBehaviour, IDamageable
         takeDamage(healthPoints, 1f);
     }*/
 
-    public void takeDamage(float hitPoints)
+    public void takeDamage(int hitPoints)
     {
         healthPoints -= hitPoints;
         if (healthPoints <= 0f)
