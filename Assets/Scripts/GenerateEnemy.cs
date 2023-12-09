@@ -28,7 +28,7 @@ public class GenerateEnemy : MonoBehaviour
                 float xOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
                 float zOffset = Random.Range(maxDistanceFromPlayer, minDistanceFromPlayer) * Mathf.Sign(Random.Range(-1f, 1f));
 
-                Debug.Log("Cow X Offset" + xOffset + "          Cow Z Offset" + zOffset);
+//                Debug.Log("Cow X Offset" + xOffset + "          Cow Z Offset" + zOffset);
                 
                 GameObject cow = enemy.GetComponentInChildren<Cow>(true).gameObject;
                 

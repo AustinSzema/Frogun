@@ -21,11 +21,11 @@ public class PrintKeyInputs : MonoBehaviour
                 _keyText += " + " + keyCode;
             }
         }
-        
-        
-        
-        _keyInputsText.text = "Key Inputs: " + _keyText.Remove(_keyText.IndexOf("+"), 1);
 
+        if (_keyText.IndexOf("+") > 0)
+        {
+            _keyInputsText.text = "Key Inputs: " + _keyText.Remove(_keyText.IndexOf("+"), 1);
+        }
     }
     
 }
