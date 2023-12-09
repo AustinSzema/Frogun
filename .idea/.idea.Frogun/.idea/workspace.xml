@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Magnetic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Magnetic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trail Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Trail Material.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Windows Build\Frogun.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Windows Build/Frogun.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Owner\Documents\GitHub\Frogun\Builds\Windows Build" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -114,6 +115,8 @@
       <workItem from="1701841814686" duration="3456000" />
       <workItem from="1701894753550" duration="5575000" />
       <workItem from="1701983525235" duration="3623000" />
+      <workItem from="1702098336133" duration="4000" />
+      <workItem from="1702098781199" duration="941000" />
     </task>
     <servers />
   </component>
