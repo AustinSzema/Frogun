@@ -8,13 +8,17 @@ public class Magnetic : MonoBehaviour
 {
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip _hitClip;
+    [SerializeField] private ParticleSystem _dustParticles;
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.GetComponent<IDamageable>() != null)
+        if (other.gameObject.GetComponent<IDamageable>() != null && other.gameObject.GetComponent<PlayerController>() == null)
         {
+            Debug.Log(other.gameObject.name);
             other.gameObject.GetComponent<IDamageable>().takeDamage(1);
             _audioSource.pitch = Random.Range(0.5f, 1.5f);
             _audioSource.PlayOneShot(_hitClip);
+            //_dustParticles.transform.position = other.contacts[0].point;
+            //_dustParticles.Play();
         }
     }
 }

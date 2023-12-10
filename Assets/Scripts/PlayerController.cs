@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rb;
 
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -69,6 +70,8 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
 
 
+        
+        
         // when to jump
         if (Input.GetKey(jumpKey) && readyToJump && grounded)
         {
@@ -78,6 +81,8 @@ public class PlayerController : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+
+
     }
 
     private void MovePlayer()
@@ -94,6 +99,7 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
     }
 
+    
     private void SpeedControl()
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
@@ -104,6 +110,7 @@ public class PlayerController : MonoBehaviour
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
+        
     }
 
     private void Jump()
