@@ -7,19 +7,21 @@ public class BossEnemy : MonoBehaviour, IDamageable
 {
     public int healthPoints { get; set; }
 
-    private void Start()
+    [SerializeField] private intVariable _bossHealth;
+    
+    private void Awake()
     {
-        healthPoints = 100;
+        _bossHealth.Value = 100;
     }
 
     public void takeDamage(int hitPoints)
     {
-        healthPoints -= hitPoints;
+        _bossHealth.Value -= hitPoints;
     }
 
     private void Update()
     {
-        if (healthPoints <= 0)
+        if (_bossHealth.Value <= 0)
         {
             Destroy(gameObject);
         }
