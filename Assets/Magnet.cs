@@ -103,14 +103,24 @@ public class Magnet : MonoBehaviour
                 _activateMagnet = false;
             }
         }
-
-        if (Input.GetMouseButtonDown(2) && Input.GetMouseButton(1) == false)
+        
+        
+        if (Input.GetMouseButton(1) && Input.GetMouseButtonDown(2))
         {
             foreach (Rigidbody rb in _magneticObjects)
             {
+                _attractImage.SetActive(false);
+                _repelImage.SetActive(true);
+                _defaultImage.SetActive(false);
+                _attractParticles.SetActive(false);
+                
                 rb.AddForce(Vector3.down * 5000f);
+                
+                _activateMagnet = false;
             }
         }
+
+
 
         
     }

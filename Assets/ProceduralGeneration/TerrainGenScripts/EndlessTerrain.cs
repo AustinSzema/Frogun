@@ -17,6 +17,7 @@ public class EndlessTerrain : MonoBehaviour
     public Transform viewer;
     public Material mapMaterial;
 
+    [SerializeField] private MeshRenderer _mesh;
 
     public static Vector2 viewerPosition;
     Vector2 viewerPositionOld;
@@ -29,6 +30,7 @@ public class EndlessTerrain : MonoBehaviour
 
     void Start()
     {
+        mapMaterial = _mesh.material;
         mapGenerator = FindObjectOfType<MapGenerator>();
 
         maxViewDst = detailLevels[detailLevels.Length - 1].visibleDstThreshold;
