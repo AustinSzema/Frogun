@@ -26,6 +26,10 @@ public class Magnet : MonoBehaviour
     [SerializeField] private GameObject _repelImage;
     [SerializeField] private GameObject _defaultImage;
 
+
+
+    [SerializeField] private GameObject _attractParticles;
+    
     
     private void Start()
     {
@@ -68,6 +72,7 @@ public class Magnet : MonoBehaviour
             _repelImage.SetActive(false);
             _attractImage.SetActive(true);
             _defaultImage.SetActive(false);
+            _attractParticles.SetActive(true);
         }
         if(Input.GetMouseButtonUp(1))
         {
@@ -80,6 +85,7 @@ public class Magnet : MonoBehaviour
             _repelImage.SetActive(false);
             _attractImage.SetActive(false);
             _defaultImage.SetActive(true);
+            _attractParticles.SetActive(false);
 
         }
 
@@ -90,6 +96,7 @@ public class Magnet : MonoBehaviour
                 _attractImage.SetActive(false);
                 _repelImage.SetActive(true);
                 _defaultImage.SetActive(false);
+                _attractParticles.SetActive(false);
                 
                 rb.AddForce(transform.forward * 5000f);
                 
@@ -97,6 +104,13 @@ public class Magnet : MonoBehaviour
             }
         }
 
+        if (Input.GetMouseButtonDown(2) && Input.GetMouseButton(1) == false)
+        {
+            foreach (Rigidbody rb in _magneticObjects)
+            {
+                rb.AddForce(Vector3.down * 5000f);
+            }
+        }
 
         
     }
