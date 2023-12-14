@@ -21,4 +21,17 @@ public class Magnetic : MonoBehaviour
             //_dustParticles.Play();
         }
     }
+
+
+    private void Update()
+    {
+        if (transform.position.y < 0f)
+        {
+            transform.position = new Vector3(transform.position.x, 30f, transform.position.z);
+        }
+    }
+    
+    
 }
+
+
