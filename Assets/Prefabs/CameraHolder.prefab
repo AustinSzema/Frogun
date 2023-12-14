@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312683014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.87, y: -0.36591125, z: 2.2133527}
+  m_LocalScale: {x: 26.188, y: 26.188, z: 26.188}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7600527954038380983}
-  m_Father: {fileID: 3468056724779130724}
-  m_RootOrder: 0
+  m_Father: {fileID: 3468056723903301562}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &312683018
 MeshFilter:
@@ -340,7 +340,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3468056724779130724}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1662360672
 GameObject:
@@ -373,7 +373,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3468056723903301562}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &1662360676
 MeshFilter:
@@ -505,6 +505,7 @@ Transform:
   m_Children:
   - {fileID: 1059871770}
   - {fileID: 3468056723915062796}
+  - {fileID: 312683019}
   - {fileID: 4011504720333535132}
   - {fileID: 1662360673}
   m_Father: {fileID: 3468056722852948540}
@@ -608,7 +609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensX: 200
   sensY: -200
-  orientation: {fileID: 0}
+  orientation: {fileID: 312683019}
 --- !u!1 &3468056723915062797
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,7 +669,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 312683019}
   - {fileID: 1480920769}
   m_Father: {fileID: 4011504720333535132}
   m_RootOrder: 0
@@ -818,7 +818,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 08141a912f5732e44b56eae3fdcdbf40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 08141a912f5732e44b56eae3fdcdbf40,
         type: 3}
@@ -914,6 +914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 08141a912f5732e44b56eae3fdcdbf40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08141a912f5732e44b56eae3fdcdbf40, type: 3}
