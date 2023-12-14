@@ -6,13 +6,106 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01. Hidden Inventory.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01. Hidden Inventory.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddGravity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddGravity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Attract Particles Test.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Attract Particles Test.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossEnemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossEnemy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BossHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bubble Particles.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bubble Particles.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Center Attract Particles Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Center Attract Particles Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Center Repel Particles Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Center Repel Particles Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Design Document and Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Design Document and Notes.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemy Minimap Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemy Minimap Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyShoot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnemyShoot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fist Cooler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fist Cooler.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fist.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gravity Particles Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gravity Particles Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand Cooler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand Cooler.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KillCount.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KillCount.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockMinimapCameraRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockMinimapCameraRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LockRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MagnetStateSO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MagnetStateSO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnetic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnetic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Minimap Icon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Minimap Icon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouldyCheeseRegular-WyMWG.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mountain Shader.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mountain Shader.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Open Hand Cooler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Open Hand Cooler.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Open Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Open Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outer Attract Particles Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outer Attract Particles Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outer Repel Particles Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Outer Repel Particles Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Minimap Icon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Minimap Icon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Minimap Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Minimap Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerDamage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerDamage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerHealth.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Funny Cow Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Funny Cow Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Magnet Particles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Magnet Particles.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PrintKeyInputs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PrintKeyInputs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResetKillCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ResetKillCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rigged_Baby.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rigged_Baby.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetHealthBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetHealthBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetKillCountText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SetKillCountText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Grass Shader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Grass Shader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Mountain Shader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Mountain Shader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Terrain Mountain Shader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_Terrain Mountain Shader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Graphs/Terrain Mountain Shader.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Graphs/Terrain Mountain Shader.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trail Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Trail Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UILookAt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UILookAt.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/White Square 2048x2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/White Square 2048x2048.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/punch-boxing-02wav-14897.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/punch-boxing-02wav-14897.mp3.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +229,8 @@
       <workItem from="1702421312871" duration="450000" />
       <workItem from="1702431716176" duration="5491000" />
       <workItem from="1702511099370" duration="6674000" />
-      <workItem from="1702541852916" duration="1343000" />
+      <workItem from="1702541852916" duration="1938000" />
+      <workItem from="1702585787223" duration="1323000" />
     </task>
     <servers />
   </component>
