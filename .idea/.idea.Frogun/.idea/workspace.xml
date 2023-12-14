@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Attract Particles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Attract Particles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Magnet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Attract Particles.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Attract Particles.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/White Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/White Square.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +134,7 @@
       <workItem from="1702188406545" duration="3145000" />
       <workItem from="1702421312871" duration="450000" />
       <workItem from="1702431716176" duration="5491000" />
-      <workItem from="1702511099370" duration="1939000" />
+      <workItem from="1702511099370" duration="4056000" />
     </task>
     <servers />
   </component>

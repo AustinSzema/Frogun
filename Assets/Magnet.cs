@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class Magnet : MonoBehaviour
@@ -28,9 +29,11 @@ public class Magnet : MonoBehaviour
 
 
 
-    [SerializeField] private GameObject _attractParticles;
-    
-    
+    [SerializeField] private GameObject _attractParticlesRoot;
+    [SerializeField] private GameObject _repelParticlesRoot;
+    [SerializeField] private ParticleSystem _repelParticles;
+    [SerializeField] private GameObject _gravityParticlesRoot;
+    [SerializeField] private ParticleSystem _gravityParticles;
     private void Start()
     {
         /*for (int i = 0; i < 100; i++)
@@ -72,7 +75,7 @@ public class Magnet : MonoBehaviour
             _repelImage.SetActive(false);
             _attractImage.SetActive(true);
             _defaultImage.SetActive(false);
-            _attractParticles.SetActive(true);
+            _attractParticlesRoot.SetActive(true);
         }
         if(Input.GetMouseButtonUp(1))
         {
@@ -85,7 +88,7 @@ public class Magnet : MonoBehaviour
             _repelImage.SetActive(false);
             _attractImage.SetActive(false);
             _defaultImage.SetActive(true);
-            _attractParticles.SetActive(false);
+            _attractParticlesRoot.SetActive(false);
 
         }
 
@@ -96,10 +99,11 @@ public class Magnet : MonoBehaviour
                 _attractImage.SetActive(false);
                 _repelImage.SetActive(true);
                 _defaultImage.SetActive(false);
-                _attractParticles.SetActive(false);
-                
+                _attractParticlesRoot.SetActive(false);
+                _repelParticlesRoot.SetActive(true);
+                _repelParticles.Clear();
+                _repelParticles.Play();
                 rb.AddForce(transform.forward * 5000f);
-                
                 _activateMagnet = false;
             }
         }
@@ -112,7 +116,10 @@ public class Magnet : MonoBehaviour
                 _attractImage.SetActive(false);
                 _repelImage.SetActive(true);
                 _defaultImage.SetActive(false);
-                _attractParticles.SetActive(false);
+                _attractParticlesRoot.SetActive(false);
+                _gravityParticlesRoot.SetActive(true);
+                _gravityParticles.Clear();
+                _gravityParticles.Play();
                 
                 rb.AddForce(Vector3.down * 5000f);
                 
