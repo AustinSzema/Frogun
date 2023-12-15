@@ -762,6 +762,11 @@ PrefabInstance:
       propertyPath: _footPosition
       value: 
       objectReference: {fileID: 678007168}
+    - target: {fileID: 1451311809702768337, guid: d822a961e824b3a43b1a29dd8c22a0eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3468056722852948538, guid: d822a961e824b3a43b1a29dd8c22a0eb,
         type: 3}
       propertyPath: m_Name
