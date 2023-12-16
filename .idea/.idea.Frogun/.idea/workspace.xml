@@ -6,18 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Default Mouse Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Default Mouse Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Magnet Mouse Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Magnet Mouse Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubeGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Magnetic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Magnetic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,7 @@
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E17/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E21/Assets/Scripts/TerrainGenerator.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -133,13 +125,16 @@
       <workItem from="1702541852916" duration="1938000" />
       <workItem from="1702585787223" duration="1917000" />
       <workItem from="1702610178862" duration="649000" />
-      <workItem from="1702683138735" duration="5400000" />
+      <workItem from="1702683138735" duration="5401000" />
+      <workItem from="1702710202005" duration="56000" />
+      <workItem from="1702711382561" duration="2570000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
