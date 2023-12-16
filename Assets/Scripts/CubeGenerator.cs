@@ -9,7 +9,7 @@ public class CubeGenerator : MonoBehaviour
 
     [SerializeField] private int _numberOfCubes = 100;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         for (int i = 0; i < _numberOfCubes; i++)
         {

@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/MouldyCheeseRegular-WyMWG SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/MouldyCheeseRegular-WyMWG SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Default Mouse Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Default Mouse Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnet Mouse Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Magnet Mouse Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubeGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Magnetic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Magnetic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/AddGravity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BossEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EnemyShoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LockMinimapCameraRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LockRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MagnetStateSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerDamage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PrintKeyInputs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ResetKillCount.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SetHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SetKillCountText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UILookAt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E16/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E17/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E21/Assets/Scripts/TerrainGenerator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -134,6 +132,8 @@
       <workItem from="1702511099370" duration="6674000" />
       <workItem from="1702541852916" duration="1938000" />
       <workItem from="1702585787223" duration="1917000" />
+      <workItem from="1702610178862" duration="649000" />
+      <workItem from="1702683138735" duration="5400000" />
     </task>
     <servers />
   </component>
