@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/MouldyCheeseRegular-WyMWG SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/MouldyCheeseRegular-WyMWG SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay Necessities.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay Necessities.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ToggleControlsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E16/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E17/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E21/Assets/Scripts/TerrainGenerator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -128,6 +136,7 @@
       <workItem from="1702683138735" duration="5401000" />
       <workItem from="1702710202005" duration="56000" />
       <workItem from="1702711382561" duration="2570000" />
+      <workItem from="1702794499125" duration="4058000" />
     </task>
     <servers />
   </component>
