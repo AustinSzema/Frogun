@@ -10,7 +10,7 @@ public class GenerateEnemy : MonoBehaviour
     
     private void Start()
     {
-        InvokeRepeating("SpawnEnemy", 0f, 0.5f);
+        InvokeRepeating("SpawnEnemy", 0f, 0.25f);
     }
     
 

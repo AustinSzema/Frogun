@@ -52,3 +52,7 @@ add blue sphere when cubes are being pulled in
 
 
 make a state machine and booleans that updated scriptable object variables so any object can access when you are attracting or repelling
+
+
+if you kill all the cows, none of them respawn. Also the killcounter keeps counting up for some reason??
+TODO: Rework enemy spawning and fix bugs
