@@ -42,23 +42,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2187356689179955547}
     m_Modifications:
-    - target: {fileID: 642743767, guid: 81ef82d47703f4e46b77310af88853bd, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 642743768, guid: 81ef82d47703f4e46b77310af88853bd, type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 642743768, guid: 81ef82d47703f4e46b77310af88853bd, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d6d692cbdb11d4e4f9458d0446c5ebec, type: 3}
-    - target: {fileID: 988223471116467788, guid: 81ef82d47703f4e46b77310af88853bd,
-        type: 3}
-      propertyPath: orthographic size
-      value: 75
-      objectReference: {fileID: 0}
     - target: {fileID: 4429400766943435828, guid: 81ef82d47703f4e46b77310af88853bd,
         type: 3}
       propertyPath: m_Name
@@ -72,12 +55,12 @@ PrefabInstance:
     - target: {fileID: 4429400766943435829, guid: 81ef82d47703f4e46b77310af88853bd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -960
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4429400766943435829, guid: 81ef82d47703f4e46b77310af88853bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -530.78
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4429400766943435829, guid: 81ef82d47703f4e46b77310af88853bd,
         type: 3}
@@ -413,11 +396,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5515161631825005496, guid: ef04fcc6a27e8c74fb94492ca22e3ea0,
+    - target: {fileID: 7661485083997498476, guid: ef04fcc6a27e8c74fb94492ca22e3ea0,
         type: 3}
-      propertyPath: m_Name
-      value: Toggle Controls Text
-      objectReference: {fileID: 0}
+      propertyPath: _controlsCanvas
+      value: 
+      objectReference: {fileID: 1922337114}
     - target: {fileID: 8602792822618957282, guid: ef04fcc6a27e8c74fb94492ca22e3ea0,
         type: 3}
       propertyPath: m_Pivot.x
@@ -536,25 +519,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7581897038348744666}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4546166664153617689 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6210311402402718403, guid: ef04fcc6a27e8c74fb94492ca22e3ea0,
-    type: 3}
-  m_PrefabInstance: {fileID: 7581897038348744666}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7661485083997498476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4546166664153617689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ebd14587f20f2b4bba638ea4bbef0f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _controlsCanvas: {fileID: 1922337114}
 --- !u!1 &7581897038822610821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 617046111, guid: ef04fcc6a27e8c74fb94492ca22e3ea0,
