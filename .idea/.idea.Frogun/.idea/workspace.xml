@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Screenshot 2024-01-10 235528.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Screenshot 2024-01-10 235528.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,8 @@
       <workItem from="1702711382561" duration="2570000" />
       <workItem from="1702794499125" duration="4071000" />
       <workItem from="1702864362558" duration="2972000" />
-      <workItem from="1705039405500" duration="1386000" />
+      <workItem from="1705039405500" duration="1665000" />
+      <workItem from="1705046810454" duration="1730000" />
     </task>
     <servers />
   </component>
