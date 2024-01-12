@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7744177225374821460}
   - component: {fileID: 7744177225374821463}
   - component: {fileID: 7744177225374821418}
-  - component: {fileID: 5874257694473008484}
-  - component: {fileID: 3687100199952305722}
+  - component: {fileID: 4622621561547102929}
+  - component: {fileID: 727409348696214333}
   m_Layer: 10
   m_Name: Domain Expansion
   m_TagString: Untagged
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0eeb16d3074bdd84d81b32061d77c23b, type: 2}
+  - {fileID: 2100000, guid: 5fe476f81b6b4114c806cc871cada0fd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,8 +115,8 @@ MonoBehaviour:
   _expansionSpeed: 1.5
   _domainSizeValue: 200
   _meshRenderer: {fileID: 7744177225374821460}
-  _domainParticles: {fileID: 0}
---- !u!198 &5874257694473008484
+  _domainParticles: {fileID: 4622621561547102929}
+--- !u!198 &4622621561547102929
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4823,7 +4823,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &3687100199952305722
+--- !u!199 &727409348696214333
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0

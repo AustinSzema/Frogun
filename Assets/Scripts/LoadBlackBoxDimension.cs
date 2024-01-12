@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,11 @@ public class LoadBlackBoxDimension : MonoBehaviour
     [SerializeField] private int _blackBoxDimensionSceneIndex;
 
     [SerializeField] private intVariable _previousDimensionSceneIndex;
+
+    private void Start()
+    {
+        _previousDimensionSceneIndex.Value = SceneManager.GetActiveScene().buildIndex;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

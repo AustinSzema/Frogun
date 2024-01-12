@@ -22,6 +22,8 @@ public class DomainExpansion : MonoBehaviour
     {
         _domainSize = new Vector3(_domainSizeValue, _domainSizeValue, _domainSizeValue);
         _originalSize = transform.localScale;
+        _meshRenderer.enabled = false;
+        _domainParticles.Stop();
     }
 
     // Update is called once per frame
@@ -70,6 +72,7 @@ public class DomainExpansion : MonoBehaviour
         transform.localScale = _originalSize;
         _expandDomain = false;
         _meshRenderer.enabled = false;
+        _domainParticles.Stop();
         yield return new WaitForSeconds(waitTime);
     }
     

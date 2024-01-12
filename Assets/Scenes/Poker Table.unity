@@ -456,6 +456,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 555877801}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &211656507 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 611759611247780006, guid: ccab907b7da6d574ea353b3b8e597561,
+    type: 3}
+  m_PrefabInstance: {fileID: 2187356688983802081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &258749989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5843,16 +5849,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2531983785292699171, guid: ccab907b7da6d574ea353b3b8e597561,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fe476f81b6b4114c806cc871cada0fd, type: 2}
     - target: {fileID: 2531983785292699229, guid: ccab907b7da6d574ea353b3b8e597561,
         type: 3}
-      propertyPath: _expansionSpeed
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2531983785292699229, guid: ccab907b7da6d574ea353b3b8e597561,
-        type: 3}
-      propertyPath: _domainSizeValue
-      value: 300
-      objectReference: {fileID: 0}
+      propertyPath: _domainParticles
+      value: 
+      objectReference: {fileID: 211656507}
     - target: {fileID: 7581897039540109702, guid: ccab907b7da6d574ea353b3b8e597561,
         type: 3}
       propertyPath: m_AnchorMax.x
