@@ -6,29 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="4a18820a-2ee5-4d03-b46e-33ce33815277" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Frogun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DomainExpansion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansionShaderGraph.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DomainExpansionShaderGraph.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Martini Glass Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Martini Glass Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Playing Card Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Playing Card Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Poker Chip Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Poker Chip Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Whiskey Glass Prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environmental Prefabs/Whiskey Glass Prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Dice Expansion Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Dice Expansion Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Domain Expansion Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Domain Expansion Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansionShaderGraph.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DomainExpansionShaderGraph.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GenerateEnvironmentalObstacles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GenerateEnvironmentalObstacles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martini Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martini Glass.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Playing Card.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Playing Card.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Chip.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Chip.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Felt Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Felt Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Rim Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Rim Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table Texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Poker Table.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CameraHolder.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Domain Expansion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Domain Expansion.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameplay Necessities.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gameplay Necessities.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BlackBoxDimension.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BlackBoxDimension.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Frogger.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Poker Table.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Poker Table.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadBlackBoxDimension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadBlackBoxDimension.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_DomainExpansionShaderGraph.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader Graphs_DomainExpansionShaderGraph.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whiskey Glass.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whiskey Glass.fbx.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/DomainExpansion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DomainExpansionFollowCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E16/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E17/Assets/Scripts/Data/TextureData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Procedural-Landmass-Generation-master/Procedural-Landmass-Generation-master/Proc Gen E21/Assets/Scripts/TerrainGenerator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -153,7 +160,8 @@
       <workItem from="1702864362558" duration="2972000" />
       <workItem from="1705039405500" duration="1665000" />
       <workItem from="1705046810454" duration="5434000" />
-      <workItem from="1705090605598" duration="1546000" />
+      <workItem from="1705090605598" duration="2142000" />
+      <workItem from="1705298503985" duration="4977000" />
     </task>
     <servers />
   </component>

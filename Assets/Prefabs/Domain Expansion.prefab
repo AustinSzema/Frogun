@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7744177225374821418}
   - component: {fileID: 4622621561547102929}
   - component: {fileID: 727409348696214333}
+  - component: {fileID: 7566594960999583266}
   m_Layer: 10
   m_Name: Domain Expansion
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 7744177225374821457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.26187998, y: 0.26187998, z: 0.26187998}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5247eab3d04706b45b2521f274c166b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _expansionSpeed: 1.5
-  _domainSizeValue: 200
+  _expansionSpeed: 30
+  _domainSizeValue: 100
   _meshRenderer: {fileID: 7744177225374821460}
   _domainParticles: {fileID: 4622621561547102929}
 --- !u!198 &4622621561547102929
@@ -4831,7 +4832,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7744177225374821457}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4895,3 +4896,16 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &7566594960999583266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7744177225374821457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d084ba2690b2f41a257ec508018455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cameraTransform: {fileID: 0}
