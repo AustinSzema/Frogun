@@ -6,11 +6,15 @@ public class LoadBlackBoxDimension : MonoBehaviour
 {
     [SerializeField] private int _blackBoxDimensionSceneIndex;
 
+    private int _currentSceneIndex;
+
     [SerializeField] private intVariable _previousDimensionSceneIndex;
 
     private void Start()
     {
+        
         _previousDimensionSceneIndex.Value = SceneManager.GetActiveScene().buildIndex;
+        
     }
 
     private void OnTriggerEnter(Collider other)

@@ -25,8 +25,8 @@ public class EndlessTerrain : MonoBehaviour
     int chunkSize;
     int chunksVisibleInViewDst;
 
-    Dictionary<Vector2, TerrainChunk> terrainChunkDictionary = new Dictionary<Vector2, TerrainChunk>();
-    static List<TerrainChunk> terrainChunksVisibleLastUpdate = new List<TerrainChunk>();
+    Dictionary<Vector2, TerrainChunk> terrainChunkDictionary;
+    static List<TerrainChunk> terrainChunksVisibleLastUpdate;
 
     void Start()
     {
@@ -37,6 +37,9 @@ public class EndlessTerrain : MonoBehaviour
         chunkSize = MapGenerator.mapChunkSize - 1;
         chunksVisibleInViewDst = Mathf.RoundToInt(maxViewDst / chunkSize);
 
+        terrainChunkDictionary = new Dictionary<Vector2, TerrainChunk>();
+        terrainChunksVisibleLastUpdate = new List<TerrainChunk>();
+        
         UpdateVisibleChunks();
     }
 
