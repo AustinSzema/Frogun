@@ -19,7 +19,7 @@ public class PlayerDamage : MonoBehaviour, IDamageable
     private void OnCollisionEnter(Collision other)
     {
                 
-        Debug.Log("player collided with something");
+//        Debug.Log("player collided with something");
 
         if (other.gameObject.GetComponent<Cow>() != null)
         {

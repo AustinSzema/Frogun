@@ -18,7 +18,7 @@ public class SetHealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(_entityHealth.name + " : " + _entityHealth.Value);
+        //Debug.Log(_entityHealth.name + " : " + _entityHealth.Value);
 
         _slider.value = _entityHealth.Value;
     }

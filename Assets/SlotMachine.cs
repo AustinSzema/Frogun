@@ -1,41 +1,57 @@
 using System.Collections;
-using TMPro;
-using UnityEngine;
+ using TMPro;
+ using UnityEngine;
+using System.Collections.Generic;
+using System;
+using Random = UnityEngine.Random;
+ public class SlotMachine : MonoBehaviour
+ {
+     [SerializeField] private TextMeshProUGUI[] _slots;
+ 
+     
+ 
+     private bool _spinValues = false;
+     
+     private void Update()
+     {
+         if (Input.GetKeyDown(KeyCode.L)) // Check for 'l' key press
+         {
+             _spinValues = true;
+             for (int i = 0; i < _slots.Length; i++)
+             {
+                 StartCoroutine(SpinSlotsForTime(2.0f + i, _slots[i])); // Start spinning for 2 seconds
+             }
+         }
+ 
+         if(_spinValues){
+             foreach (TextMeshProUGUI slotText in _slots)
+             {
+                 slotText.text = "" + Random.Range(0, 9); // Change slot text
+             }
+         }
+     }
+     
+     
+     
+     private IEnumerator SpinSlotsForTime(float spinTime, TextMeshProUGUI slotText)
+     {
+         yield return new WaitForSeconds(spinTime);
 
-public class SlotMachine : MonoBehaviour
-{
-    
-    
-    [SerializeField] private TextMeshProUGUI[] _slots;
+         slotText.text = "" + Random.Range(0, 9); // Change slot text
 
-    private int[] _values = new int[] {0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3};
-    
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.L)) // Check for 'l' key press
-        {
-            StartCoroutine(SpinSlotsForTime(2.0f)); // Start spinning for 2 seconds
-        }
-    }
+         // Find the index of the slotText
+         int index = Array.IndexOf(_slots, slotText);
 
-    IEnumerator SpinSlotsForTime(float spinTime)
-    {
-        float endTime = Time.time + spinTime; // Calculate end time
+         // Stop the next slot after a delay
+         if (index < _slots.Length - 1)
+         {
+             yield return new WaitForSeconds(0.1f); // Introduce delay before stopping next slot
+             StartCoroutine(SpinSlotsForTime(0.1f, _slots[index + 1])); // Spin the next slot
+         }
+         else
+         {
+             _spinValues = false; // All slots have stopped spinning
+         }
+     }
 
-        while (Time.time < endTime)
-        {
-            foreach (TextMeshProUGUI slotText in _slots)
-            {
-                slotText.text = "" + _values[Random.Range(0, _values.Length)]; // Change slot text
-            }
-            yield return null; // Wait for next frame
-        }
-
-        /*// After spinning ends, stop slots one by one with a slight delay
-        for (int i = 0; i < _slots.Length; i++)
-        {
-            yield return new WaitForSeconds(0.1f); // Introduce delay before stopping next slot
-            _slots[i].text = "" + Random.Range(0, 9); // Change slot text
-        }*/
-    }
-}
+ }
