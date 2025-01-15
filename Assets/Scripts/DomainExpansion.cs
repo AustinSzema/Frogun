@@ -49,7 +49,7 @@ public class DomainExpansion : MonoBehaviour
         if (_expandDomain && _domainSizeValue - transformAverage > 0)
         {
             //transform.localScale = Vector3.Lerp(transform.localScale, _domainSize, Time.deltaTime * _expansionSpeed);
-            transform.localScale = transform.localScale + new Vector3(Time.deltaTime * _expansionSpeed, Time.deltaTime * _expansionSpeed, Time.deltaTime * _expansionSpeed);
+            transform.localScale += new Vector3(Time.deltaTime * _expansionSpeed, Time.deltaTime * _expansionSpeed, Time.deltaTime * _expansionSpeed);
         }
 
         if (_domainSizeValue - transformAverage <= 0)
