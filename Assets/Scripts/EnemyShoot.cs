@@ -33,7 +33,7 @@ public class EnemyShoot : MonoBehaviour
 
         GameObject bullet = Instantiate(_bulletPrefab, transform.position, quaternion.identity);
 
-        bullet.GetComponent<Rigidbody>().velocity = transform.forward * 100f;
+        bullet.GetComponent<Rigidbody>().linearVelocity = transform.forward * 100f;
         
         
         Debug.Log("bingus");

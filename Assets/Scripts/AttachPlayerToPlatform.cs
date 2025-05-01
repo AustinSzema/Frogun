@@ -28,9 +28,9 @@ public class AttachPlayerToPlatform : MonoBehaviour
         {
             collision.gameObject.transform.parent = transform;
            
-            Vector3 playerVel = collision.gameObject.GetComponent<Rigidbody>().velocity;
+            Vector3 playerVel = collision.gameObject.GetComponent<Rigidbody>().linearVelocity;
             //collision.gameObject.GetComponent<Rigidbody>().velocity += new Vector3(rb.velocity.x, 0f, 0f);
-            collision.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(rb.velocity.x, playerVel.y, playerVel.z);
+            collision.gameObject.GetComponent<Rigidbody>().linearVelocity = new Vector3(rb.linearVelocity.x, playerVel.y, playerVel.z);
         }
     }
 

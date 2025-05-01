@@ -26,7 +26,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = moveDirection;
+        rb.linearVelocity = moveDirection;
     }
 
 

@@ -139,7 +139,7 @@ public class Magnet : MonoBehaviour
         {
             foreach (Rigidbody obj in _magneticObjects )
             {
-                obj.velocity = Vector3.zero;
+                obj.linearVelocity = Vector3.zero;
                 obj.position = Vector3.MoveTowards(obj.transform.position, transform.position, Time.deltaTime * 50f);
 
                 /*// Calculate the direction from the current position to the target position

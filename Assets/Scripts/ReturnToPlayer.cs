@@ -15,7 +15,7 @@ public class ReturnToPlayer : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            _rigidbody.velocity = Vector3.zero;
+            _rigidbody.linearVelocity = Vector3.zero;
             transform.position = _playerPos.Value + Vector3.up * 5f;
         }
     }
